@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:checked="true"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom"
+        android:title="SEARCH" />
+
+    <item
+        android:id="@+id/action_queue"
+        android:checked="true"
+        android:icon="@drawable/ic_schedule"
+        app:showAsAction="ifRoom"
+        android:title="QUEUE" />
+
+    <item
+        android:id="@+id/action_profile"
+        android:checked="true"
+        android:icon="@drawable/ic_profile"
+        app:showAsAction="ifRoom"
+        android:title="PROFILE" />
+</menu>

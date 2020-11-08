@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QCut</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="google_map_api">AIzaSyD0gzQ43R7S8iiJLL-oUjesnc6hu-EvCII</string>
+    <string name="facebook_app_id" translatable="false">201807467696163</string>
+
+</resources>

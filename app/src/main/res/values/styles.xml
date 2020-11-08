@@ -1,0 +1,183 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MEditText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="boxBackgroundColor">@android:color/transparent</item>
+        <item name="boxStrokeColor">@color/txtGray</item>
+        <item name="endIconTint">@color/txtGray</item>
+        <item name="hintTextColor">@color/txtGray</item>
+        <item name="android:colorFocusedHighlight">@color/txtGray</item>
+        <item name="android:textColorHint">@color/txtGray</item>
+    </style>
+
+    <style name="Btnsignin" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="Btnsocial" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    
+    <style name="TabLayoutTextStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="BottomNavigation_ActiveItemTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="BottomNavigation_InActiveItemTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="MyToolbarTheme"
+        parent="@style/ThemeOverlay.AppCompat.Dark">
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="titleTextColor">@android:color/black</item>
+    </style>
+
+    <style name="txt14">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="txt14Regular" parent="txt14">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="txt15">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
+    <style name="txt15Regular" parent="txt15">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="txt15Light" parent="txt15">
+        <item name="android:fontFamily">@font/montserrat_light</item>
+    </style>
+    <style name="txt14Light" parent="txt14">
+        <item name="android:fontFamily">@font/montserrat_light</item>
+    </style>
+
+    <style name="txt16">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="txt16Regular" parent="txt16">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="txt16Light" parent="txt16">
+        <item name="android:fontFamily">@font/montserrat_light</item>
+    </style>
+
+    <style name="txt17">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="txt17Regular" parent="txt17">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="txt17Medium" parent="txt17">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+    </style>
+
+    <style name="txt16Bold" parent="txt16">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="txt18Bold" parent="txt18">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="txt18">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="txt18Regular" parent="txt18">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+    <style name="txt18Light" parent="txt18">
+        <item name="android:fontFamily">@font/montserrat_light</item>
+    </style>
+
+    <style name="txt20">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="txt20Regular" parent="txt20">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+    <style name="txt20Light" parent="txt20">
+        <item name="android:fontFamily">@font/montserrat_light</item>
+    </style>
+
+    <style name="txt20Medium" parent="txt20">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+    </style>
+
+    <style name="txt20Bold" parent="txt20">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="txt22">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="txt22Medium" parent="txt22">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+    </style>
+
+    <style name="txt22Bold" parent="txt22">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="txt28">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="txt28Regular" parent="txt28">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+</resources>

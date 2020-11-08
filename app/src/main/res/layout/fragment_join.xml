@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.JoinFragment"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/top_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimary"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/bottom_view"
+            />
+
+        <View
+            android:id="@+id/bottom_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/off_white"
+            app:layout_constraintTop_toBottomOf="@id/top_view"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardPreventCornerOverlap="false"
+            android:layout_margin="20dp"
+            android:elevation="8dp"
+            app:cardBackgroundColor="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/card_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="3"
+                    android:layout_margin="20dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toTopOf="@id/divider">
+
+                    <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:weightSum="5.5">
+                    <TextView
+                        android:id="@+id/shop_name"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        style="@style/txt22Bold"
+                        android:text="Loading..."
+                        android:textColor="@android:color/black"
+                        android:gravity="center"
+                        android:layout_weight="1.9"
+                        />
+                    <TextView
+                        android:id="@+id/txt_address1"
+                        android:layout_weight="1.2"
+                        style="@style/txt16Regular"
+                        android:text="Loading..."
+                        android:textColor="@android:color/black"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_address2"
+                        style="@style/txt16Regular"
+                        android:layout_weight="1.2"
+                        android:text="Loading..."
+                        android:textColor="@android:color/black"
+                        android:gravity="center"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:src="@drawable/dotted_line"
+                    android:layerType="software"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    app:layout_constraintTop_toBottomOf="@id/card_background"
+                    />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@id/divider"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp">
+                    <TextView
+                        android:id="@+id/txt_distance"
+                        style="@style/txt16Regular"
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="-- Km"
+                        android:drawablePadding="10dp"
+                        android:gravity="start|center_vertical"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintRight_toLeftOf="@id/txt_likes"
+                        />
+                    <TextView
+                        android:id="@+id/txt_likes"
+                        style="@style/txt16Regular"
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="-- Km"
+                        android:drawablePadding="10dp"
+                        android:gravity="start|center_vertical"
+                        app:layout_constraintLeft_toRightOf="@id/txt_distance"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintRight_toLeftOf="@id/txt_status"
+                        />
+                    <TextView
+                        android:id="@+id/txt_status"
+                        style="@style/txt16Regular"
+                        android:layout_width="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="-- "
+                        android:drawablePadding="10dp"
+                        android:gravity="start|center_vertical"
+                        app:layout_constraintLeft_toRightOf="@id/txt_likes"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@android:color/black"
+            app:tabIndicatorHeight="1dp"
+            app:tabBackground="@android:color/white"
+            app:tabMode="fixed"
+            app:tabTextColor="@android:color/black"
+            app:tabSelectedTextColor="@android:color/black"
+            app:tabTextAppearance="@style/TabLayoutTextStyle">
+        </com.google.android.material.tabs.TabLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </androidx.viewpager.widget.ViewPager>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llt_join_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="30dp"
+        android:background="@drawable/round_border_black"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_gravity="center_horizontal">
+
+
+        <TextView
+            android:id="@+id/jtq_1"
+            style="@style/txt18Light"
+            android:text="Join The Queue"
+            android:textColor="#FFFFFF"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llt_join_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="30dp"
+        android:background="@drawable/round_border_black"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/jtq"
+            style="@style/txt18Light"
+            android:textColor="#FFFFFF"
+            android:text="Join The Queue"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

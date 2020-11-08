@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "679003759994",
+    "firebase_url": "https://qcut-test.firebaseio.com",
+    "project_id": "qcut-test",
+    "storage_bucket": "qcut-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679003759994:android:c4ffc9df53c2b9c26ee2c3",
+        "android_client_info": {
+          "package_name": "com.qcut.biz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679003759994-jtv73sf0gros1mtrlc7fatkm21rg8esj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuj4-6MiqS04q9bb3vBjzzQs__szyneoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679003759994-jtv73sf0gros1mtrlc7fatkm21rg8esj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "679003759994-82hela3ro94b34aam3sldb1a62gjocr2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.qcut.customer"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679003759994:android:e974acd4c1d17f776ee2c3",
+        "android_client_info": {
+          "package_name": "com.qcut.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679003759994-0a6rq83acmc8a3nnkcf9eivhuo66gqsv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qcut.customer",
+            "certificate_hash": "9c09ecc00148f6cfde3ad8726416c3904249742a"
+          }
+        },
+        {
+          "client_id": "679003759994-jtv73sf0gros1mtrlc7fatkm21rg8esj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuj4-6MiqS04q9bb3vBjzzQs__szyneoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679003759994-jtv73sf0gros1mtrlc7fatkm21rg8esj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "679003759994-82hela3ro94b34aam3sldb1a62gjocr2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.qcut.customer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
